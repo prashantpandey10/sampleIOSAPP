@@ -149,10 +149,22 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate ,GPPSignInDelega
     
     
     func finishedWithAuth(auth: GTMOAuth2Authentication!, error: NSError!) {
-        if auth.accessToken != nil {
-            NSLog("GID ",auth.accessToken)
+        NSLog("received auth \(auth), error \(error)")
+        
+        if (GPPSignIn.sharedInstance().userID != nil) {
+            let user = GPPSignIn.sharedInstance().googlePlusUser
+            NSLog("user name: " + user.name.JSONString() + "\nemail: ")
+            if (user.emails != nil){
+                NSLog(user.emails.first?.JSONString() ?? "no email")
+            } else {
+                NSLog("no email")
+            }
+        } else {
+            NSLog("User ID is nil")
         }
     }
+
+
     func didDisconnectWithError(error: NSError!) {
         signIn!.signOut()
     }
@@ -183,12 +195,13 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate ,GPPSignInDelega
     func gLogin(sender:UIButton!){
         signIn = GPPSignIn.sharedInstance()
         signIn?.shouldFetchGooglePlusUser = true
-        signIn?.clientID = "421662389188-dk2t2u69to8nktghe7dk6g4v28bs7fsk.apps.googleusercontent.com"
+        signIn?.clientID = "421662389188-mkk7f49s5jjsa0slng54da03lm1afmle.apps.googleusercontent.com"
         signIn?.scopes = [kGTLAuthScopePlusLogin]
         signIn?.shouldFetchGoogleUserEmail = true;
         signIn?.shouldFetchGoogleUserID = true;
         signIn?.delegate = self
         signIn?.authenticate()
+
     }
     
     

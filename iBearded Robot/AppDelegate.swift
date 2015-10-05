@@ -23,6 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 sourceApplication: sourceApplication,
                 annotation: annotation)
     }
+    
+    func applicationG(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return GPPURLHandler.handleURL(url, sourceApplication:sourceApplication, annotation: annotation)
+    }
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -51,8 +56,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject?) -> Bool {
-//        return GPPURLHandler.handleURL(application,url, sourceApplication: sourceApplication, annotation: annotation)
+//    func application(application: UIApplication,
+//        openURL url: NSURL,
+//        sourceApplication: String?,
+//    annotation: AnyObject?) -> Bool {
+//    // Handle Google+ sign-in button URL.
+//    if ([signInButton_ handleURL:url
+//    sourceApplication:sourceApplication
+//    annotation:annotation]) {
+//    return true;
+//    }
+//    return false;
 //    }
 
 

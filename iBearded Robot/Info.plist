@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>wizrocket.iBeardedRobot</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -20,6 +20,12 @@
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1669147063299133</string>
+			</array>
+		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
@@ -37,24 +43,11 @@
 	<string>489-587-K44Z</string>
 	<key>CleverTapToken</key>
 	<string>ab5-cb4</string>
-<!--	<key>FacebookAppID</key>-->
-<!--	<string>1669147063299133</string>-->
-<!--	<key>FacebookDisplayName</key>-->
-<!--	<string>iBearded Robot</string>-->
-<key>CFBundleURLTypes</key>
-<array>
-    <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-            <string>fb1669147063299133</string>
-        </array>
-    </dict>
-</array>
-<key>FacebookAppID</key>
-<string>1669147063299133</string>
-<key>FacebookDisplayName</key>
-<string>iBearded Robot</string>
-<key>LSApplicationQueriesSchemes</key>
+	<key>FacebookAppID</key>
+	<string>1669147063299133</string>
+	<key>FacebookDisplayName</key>
+	<string>iBearded Robot</string>
+	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
 		<string>fb-messenger-api</string>
