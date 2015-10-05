@@ -14,6 +14,17 @@
 		45272B111BBE802800D1EA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45272B0F1BBE802800D1EA9A /* LaunchScreen.storyboard */; };
 		45272B1C1BBE802800D1EA9A /* iBearded_RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45272B1B1BBE802800D1EA9A /* iBearded_RobotTests.swift */; };
 		45272B271BBE802800D1EA9A /* iBearded_RobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45272B261BBE802800D1EA9A /* iBearded_RobotUITests.swift */; };
+		4584636F1BBFAE2500874C95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4584636E1BBFAE2500874C95 /* UIKit.framework */; };
+		458463711BBFAE3F00874C95 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458463701BBFAE3F00874C95 /* SystemConfiguration.framework */; };
+		458463731BBFAE4700874C95 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458463721BBFAE4700874C95 /* CoreTelephony.framework */; };
+		458463751BBFAE5100874C95 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458463741BBFAE5100874C95 /* CoreLocation.framework */; };
+		458463791BBFB0C600874C95 /* CleverTapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458463781BBFB0C600874C95 /* CleverTapSDK.framework */; };
+		45E927B21BC124D900E0C0C3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B01BC124D900E0C0C3 /* FBSDKCoreKit.framework */; };
+		45E927B31BC124D900E0C0C3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B11BC124D900E0C0C3 /* FBSDKLoginKit.framework */; };
+		45E927B51BC1266F00E0C0C3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B41BC1266F00E0C0C3 /* Bolts.framework */; };
+		45E927B91BC19E5B00E0C0C3 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B61BC19E5B00E0C0C3 /* GoogleOpenSource.framework */; };
+		45E927BB1BC19E5B00E0C0C3 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B81BC19E5B00E0C0C3 /* GooglePlus.framework */; };
+		45E927BC1BC24DB500E0C0C3 /* GooglePlus.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E927B71BC19E5B00E0C0C3 /* GooglePlus.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,18 @@
 		45272B221BBE802800D1EA9A /* iBearded RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iBearded RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45272B261BBE802800D1EA9A /* iBearded_RobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBearded_RobotUITests.swift; sourceTree = "<group>"; };
 		45272B281BBE802800D1EA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4584636E1BBFAE2500874C95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		458463701BBFAE3F00874C95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		458463721BBFAE4700874C95 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		458463741BBFAE5100874C95 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		458463781BBFB0C600874C95 /* CleverTapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CleverTapSDK.framework; sourceTree = "<group>"; };
+		4584637A1BBFB8D900874C95 /* mainHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainHeader.h; sourceTree = "<group>"; };
+		45E927B01BC124D900E0C0C3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		45E927B11BC124D900E0C0C3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		45E927B41BC1266F00E0C0C3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		45E927B61BC19E5B00E0C0C3 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		45E927B71BC19E5B00E0C0C3 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		45E927B81BC19E5B00E0C0C3 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E927BC1BC24DB500E0C0C3 /* GooglePlus.bundle in Frameworks */,
+				45E927B91BC19E5B00E0C0C3 /* GoogleOpenSource.framework in Frameworks */,
+				45E927BB1BC19E5B00E0C0C3 /* GooglePlus.framework in Frameworks */,
+				45E927B51BC1266F00E0C0C3 /* Bolts.framework in Frameworks */,
+				45E927B21BC124D900E0C0C3 /* FBSDKCoreKit.framework in Frameworks */,
+				45E927B31BC124D900E0C0C3 /* FBSDKLoginKit.framework in Frameworks */,
+				458463791BBFB0C600874C95 /* CleverTapSDK.framework in Frameworks */,
+				458463751BBFAE5100874C95 /* CoreLocation.framework in Frameworks */,
+				458463731BBFAE4700874C95 /* CoreTelephony.framework in Frameworks */,
+				458463711BBFAE3F00874C95 /* SystemConfiguration.framework in Frameworks */,
+				4584636F1BBFAE2500874C95 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +111,18 @@
 		45272AFA1BBE802800D1EA9A = {
 			isa = PBXGroup;
 			children = (
+				45E927B61BC19E5B00E0C0C3 /* GoogleOpenSource.framework */,
+				45E927B71BC19E5B00E0C0C3 /* GooglePlus.bundle */,
+				45E927B81BC19E5B00E0C0C3 /* GooglePlus.framework */,
+				45E927B41BC1266F00E0C0C3 /* Bolts.framework */,
+				45E927B01BC124D900E0C0C3 /* FBSDKCoreKit.framework */,
+				45E927B11BC124D900E0C0C3 /* FBSDKLoginKit.framework */,
+				4584637A1BBFB8D900874C95 /* mainHeader.h */,
+				458463781BBFB0C600874C95 /* CleverTapSDK.framework */,
+				458463741BBFAE5100874C95 /* CoreLocation.framework */,
+				458463721BBFAE4700874C95 /* CoreTelephony.framework */,
+				458463701BBFAE3F00874C95 /* SystemConfiguration.framework */,
+				4584636E1BBFAE2500874C95 /* UIKit.framework */,
 				45272B051BBE802800D1EA9A /* iBearded Robot */,
 				45272B1A1BBE802800D1EA9A /* iBearded RobotTests */,
 				45272B251BBE802800D1EA9A /* iBearded RobotUITests */,
@@ -314,7 +360,7 @@
 		45272B291BBE802800D1EA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +404,7 @@
 		45272B2A1BBE802800D1EA9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -396,10 +442,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "iBearded Robot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "wizrocket.iBearded-Robot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/prashantpandey/Desktop/iBearded Robot/mainHeader.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/prashantpandey/Desktop/iBearded Robot/mainHeader.h";
 			};
 			name = Debug;
 		};
@@ -407,10 +461,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "iBearded Robot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "wizrocket.iBearded-Robot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/prashantpandey/Desktop/iBearded Robot/mainHeader.h";
 			};
 			name = Release;
 		};
@@ -481,6 +542,7 @@
 				45272B2D1BBE802800D1EA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45272B2E1BBE802800D1EA9A /* Build configuration list for PBXNativeTarget "iBearded RobotTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +551,7 @@
 				45272B301BBE802800D1EA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45272B311BBE802800D1EA9A /* Build configuration list for PBXNativeTarget "iBearded RobotUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +560,7 @@
 				45272B331BBE802800D1EA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
